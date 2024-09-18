@@ -1080,11 +1080,6 @@ input, select, textarea {
 			padding: 0 1em;
 		} }
 
-#bg {
-    background: url("your-image.jpg") no-repeat center center fixed;
-    background-size: cover;
-}
-
 
 /* For devices with a max width of 736px (iPhones, small screens) */
 @media only screen and (max-width: 736px) {
