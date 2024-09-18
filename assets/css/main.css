@@ -1079,3 +1079,23 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+#bg {
+    background: url("your-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* For devices with a max width of 736px (iPhones, small screens) */
+@media only screen and (max-width: 736px) {
+    #bg {
+        background-size: cover; /* Ensure the background scales properly */
+        background-attachment: scroll; /* Prevent background from being fixed, if necessary */
+        background-position: center center; /* Center the background on mobile */
+    }
+
+    #header {
+        font-size: 1.5em; /* Adjust text size if necessary */
+    }
+}
+
